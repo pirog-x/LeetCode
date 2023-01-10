@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done PivotIndexe">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl1/IsSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl1/IsSubsequenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrayProblems/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arrayProblems/RemoveDuplicatesFromSortedArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,35 +36,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "extract.method.default.visibility": "private",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="arrayProblems" />
       <recent name="leetcode75.lvl1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IsSubsequenceTest.isSubsequence">
+  <component name="RunManager" selected="JUnit.RemoveDuplicatesFromSortedArrayTest.removeDuplicates">
     <configuration name="IsSubsequenceTest.isSubsequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -110,21 +114,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PivotIndexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode75.lvl1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode75.lvl1" />
-      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl1.PivotIndexTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PivotIndexTest.testPivotIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -141,13 +130,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoveDuplicatesFromSortedArrayTest.removeDuplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arrayProblems" />
+      <option name="MAIN_CLASS_NAME" value="arrayProblems.RemoveDuplicatesFromSortedArrayTest" />
+      <option name="METHOD_NAME" value="removeDuplicates" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RemoveDuplicatesFromSortedArrayTest.removeDuplicates" />
         <item itemvalue="JUnit.IsSubsequenceTest.isSubsequence" />
         <item itemvalue="JUnit.IsomorphicStringsTest.isIsomorphic" />
         <item itemvalue="JUnit.IsomorphicStringsTest" />
         <item itemvalue="JUnit.PivotIndexTest.testPivotIndex" />
-        <item itemvalue="JUnit.PivotIndexTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +171,7 @@
       <workItem from="1670164209934" duration="4021000" />
       <workItem from="1670238574796" duration="2186000" />
       <workItem from="1670241324139" duration="968000" />
+      <workItem from="1673369158540" duration="3184000" />
     </task>
     <task id="LOCAL-00001" summary="done PivotIndex">
       <created>1670165556874</created>
@@ -194,5 +200,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="done PivotIndex" />
     <option name="LAST_COMMIT_MESSAGE" value="done PivotIndex" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.AssertionError" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
