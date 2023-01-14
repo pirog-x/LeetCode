@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done Remove Duplicates from Sorted Array&#10;O(n)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrayProblems/FindFirstAndLastPositionOfElementInSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/arrayProblems/FindFirstAndLastPositionOfElementInSortedArrayTest.java" afterDir="false" />
+    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done Find First and Last Position of Element in Sorted Array&#10;O(log n)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrayProblems/JumpGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrayProblems/LargestDivisibleSubset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arrayProblems/JumpGameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arrayProblems/LargestDivisibleSubsetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrayProblems/FindFirstAndLastPositionOfElementInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayProblems/FindFirstAndLastPositionOfElementInSortedArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +68,7 @@
       <recent name="leetcode75.lvl1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FindFirstAndLastPositionOfElementInSortedArrayTest.searchRange">
+  <component name="RunManager" selected="JUnit.JumpGameTest">
     <configuration name="FindFirstAndLastPositionOfElementInSortedArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -97,33 +100,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsSubsequenceTest.isSubsequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JumpGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode75.lvl1.*" />
+          <option name="PATTERN" value="arrayProblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode75.lvl1" />
-      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl1.IsSubsequenceTest" />
-      <option name="METHOD_NAME" value="isSubsequence" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="arrayProblems" />
+      <option name="MAIN_CLASS_NAME" value="arrayProblems.JumpGameTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsomorphicStringsTest.isIsomorphic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JumpGameTest.canJump" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode75.lvl1.*" />
+          <option name="PATTERN" value="arrayProblems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode75.lvl1" />
-      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl1.IsomorphicStringsTest" />
-      <option name="METHOD_NAME" value="isIsomorphic" />
+      <option name="PACKAGE_NAME" value="arrayProblems" />
+      <option name="MAIN_CLASS_NAME" value="arrayProblems.JumpGameTest" />
+      <option name="METHOD_NAME" value="canJump" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JumpGameTest" />
+        <item itemvalue="JUnit.JumpGameTest.canJump" />
         <item itemvalue="JUnit.FindFirstAndLastPositionOfElementInSortedArrayTest.searchRange" />
         <item itemvalue="JUnit.FindFirstAndLastPositionOfElementInSortedArrayTest" />
         <item itemvalue="JUnit.RemoveDuplicatesFromSortedArrayTest.removeDuplicates" />
-        <item itemvalue="JUnit.IsSubsequenceTest.isSubsequence" />
-        <item itemvalue="JUnit.IsomorphicStringsTest.isIsomorphic" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +174,9 @@
       <workItem from="1670241324139" duration="968000" />
       <workItem from="1673369158540" duration="3875000" />
       <workItem from="1673375107605" duration="334000" />
-      <workItem from="1673419804437" duration="2253000" />
+      <workItem from="1673419804437" duration="3058000" />
+      <workItem from="1673422882966" duration="1460000" />
+      <workItem from="1673629531928" duration="5928000" />
     </task>
     <task id="LOCAL-00001" summary="done PivotIndex">
       <created>1670165556874</created>
@@ -188,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673372417357</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="done Find First and Last Position of Element in Sorted Array&#10;O(log n)">
+      <created>1673422256983</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673422256983</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +219,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="done PivotIndex" />
     <MESSAGE value="done Remove Duplicates from Sorted Array&#10;O(n)" />
-    <option name="LAST_COMMIT_MESSAGE" value="done Remove Duplicates from Sorted Array&#10;O(n)" />
+    <MESSAGE value="done Find First and Last Position of Element in Sorted Array&#10;O(log n)" />
+    <option name="LAST_COMMIT_MESSAGE" value="done Find First and Last Position of Element in Sorted Array&#10;O(log n)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
