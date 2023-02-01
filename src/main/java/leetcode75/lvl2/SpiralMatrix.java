@@ -29,11 +29,11 @@ public class SpiralMatrix {
             if (!(left < right && top < bottom))
                 break;
 
-            for (int i = right - 1; i > left - 1; i--) {
+            for (int i = right - 1; i >= left; i--) {
                 result.add(matrix[bottom - 1][i]);
             }
             bottom--;
-            for (int i = bottom - 1; i > top - 1; i--) {
+            for (int i = bottom - 1; i >= top; i--) {
                 result.add(matrix[i][left]);
             }
             left++;
