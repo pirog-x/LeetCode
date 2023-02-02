@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done SpiralMatrix">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/WhereWillTheBallFall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/WhereWillTheBallFallTest.java" afterDir="false" />
+    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done WhereWillTheBallFall">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/LongestCommonPrefixTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/SpiralMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/SpiralMatrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,21 +64,8 @@
       <recent name="leetcode75.lvl1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WhereWillTheBallFallTest">
-    <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.HappyNumber" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode75.lvl2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HappyNumberTest.isHappy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LongestCommonPrefixTest">
+    <configuration name="LongestCommonPrefixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +74,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="leetcode75.lvl2" />
-      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.HappyNumberTest" />
-      <option name="METHOD_NAME" value="isHappy" />
+      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.LongestCommonPrefixTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestCommonPrefixTest.longestCommonPrefix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode75.lvl2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode75.lvl2" />
+      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.LongestCommonPrefixTest" />
+      <option name="METHOD_NAME" value="longestCommonPrefix" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LongestCommonPrefixTest" />
+        <item itemvalue="JUnit.LongestCommonPrefixTest.longestCommonPrefix" />
         <item itemvalue="JUnit.WhereWillTheBallFallTest" />
         <item itemvalue="JUnit.WhereWillTheBallFallTest.findBall" />
         <item itemvalue="JUnit.SpiralMatrixTest.spiralOrderThreeByThree" />
-        <item itemvalue="JUnit.HappyNumberTest.isHappy" />
-        <item itemvalue="Application.HappyNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +178,8 @@
       <workItem from="1675110259020" duration="2385000" />
       <workItem from="1675153385809" duration="59000" />
       <workItem from="1675153670530" duration="143000" />
-      <workItem from="1675238156975" duration="4743000" />
+      <workItem from="1675238156975" duration="4989000" />
+      <workItem from="1675323818473" duration="3959000" />
     </task>
     <task id="LOCAL-00001" summary="done PivotIndex">
       <created>1670165556874</created>
@@ -214,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675112516106</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="done WhereWillTheBallFall">
+      <created>1675243542536</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675243542536</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +246,8 @@
     <MESSAGE value="done" />
     <MESSAGE value="done HappyNumber" />
     <MESSAGE value="done SpiralMatrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="done SpiralMatrix" />
+    <MESSAGE value="done WhereWillTheBallFall" />
+    <option name="LAST_COMMIT_MESSAGE" value="done WhereWillTheBallFall" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
