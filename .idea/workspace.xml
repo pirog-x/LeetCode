@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done WhereWillTheBallFall">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/LongestCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/LongestCommonPrefixTest.java" afterDir="false" />
+    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done LongestCommonPrefix">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/MultiplyStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/MultiplyStringsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,7 @@
       <recent name="leetcode75.lvl1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LongestCommonPrefixTest">
+  <component name="RunManager" selected="JUnit.MultiplyStringsTest.multiply">
     <configuration name="LongestCommonPrefixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -96,7 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiralMatrixTest.spiralOrderThreeByThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MultiplyStringsTest.multiply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +105,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="leetcode75.lvl2" />
-      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.SpiralMatrixTest" />
-      <option name="METHOD_NAME" value="spiralOrderThreeByThree" />
+      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.MultiplyStringsTest" />
+      <option name="METHOD_NAME" value="multiply" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MultiplyStringsTest.multiply" />
         <item itemvalue="JUnit.LongestCommonPrefixTest" />
         <item itemvalue="JUnit.LongestCommonPrefixTest.longestCommonPrefix" />
         <item itemvalue="JUnit.WhereWillTheBallFallTest" />
         <item itemvalue="JUnit.WhereWillTheBallFallTest.findBall" />
-        <item itemvalue="JUnit.SpiralMatrixTest.spiralOrderThreeByThree" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +179,8 @@
       <workItem from="1675153385809" duration="59000" />
       <workItem from="1675153670530" duration="143000" />
       <workItem from="1675238156975" duration="4989000" />
-      <workItem from="1675323818473" duration="3959000" />
+      <workItem from="1675323818473" duration="4150000" />
+      <workItem from="1675411586417" duration="6877000" />
     </task>
     <task id="LOCAL-00001" summary="done PivotIndex">
       <created>1670165556874</created>
@@ -223,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675243542536</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="done LongestCommonPrefix">
+      <created>1675328300914</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675328300914</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +255,8 @@
     <MESSAGE value="done HappyNumber" />
     <MESSAGE value="done SpiralMatrix" />
     <MESSAGE value="done WhereWillTheBallFall" />
-    <option name="LAST_COMMIT_MESSAGE" value="done WhereWillTheBallFall" />
+    <MESSAGE value="done LongestCommonPrefix" />
+    <option name="LAST_COMMIT_MESSAGE" value="done LongestCommonPrefix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -257,12 +266,12 @@
           <line>16</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode75/lvl2/MultiplyStrings.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="matrix[i][left]" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
