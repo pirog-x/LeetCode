@@ -1,13 +1,6 @@
 package leetcode75.lvl2;
 
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode() {}
-    ListNode(int val) { this.val = val; }
-    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-}
-
+// https://leetcode.com/problems/remove-nth-node-from-end-of-list/?envType=study-plan&id=level-2
 
 public class RemoveNthNodeFromEndOfList {
     public ListNode removeNthFromEnd(ListNode head, int n) {

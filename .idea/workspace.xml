@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done MultiplyStrings">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/RemoveNthNodeFromEndOfList.java" afterDir="false" />
+    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done RemoveNthNodeFromEndOfList">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/PalindromeLinkedList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/medium/ZigzagConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/RemoveNthNodeFromEndOfListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/PalindromeLinkedListTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/medium/ZigzagConversionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/RemoveNthNodeFromEndOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/RemoveNthNodeFromEndOfList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +63,47 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="leetcode75.lvl2" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="leetcode75.lvl2" />
       <recent name="medium" />
       <recent name="leetcode75.lvl1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RemoveNthNodeFromEndOfListTest">
+  <component name="RunManager" selected="JUnit.PalindromeLinkedListTest">
+    <configuration name="PalindromeLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode75.lvl2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode75.lvl2" />
+      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.PalindromeLinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeLinkedListTest.isPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode75.lvl2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode75.lvl2" />
+      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.PalindromeLinkedListTest" />
+      <option name="METHOD_NAME" value="isPalindrome" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RemoveNthNodeFromEndOfListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -115,44 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZigzagConversionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="medium" />
-      <option name="MAIN_CLASS_NAME" value="medium.ZigzagConversionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZigzagConversionTest.convert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="medium" />
-      <option name="MAIN_CLASS_NAME" value="medium.ZigzagConversionTest" />
-      <option name="METHOD_NAME" value="convert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PalindromeLinkedListTest" />
+        <item itemvalue="JUnit.PalindromeLinkedListTest.isPalindrome" />
         <item itemvalue="JUnit.RemoveNthNodeFromEndOfListTest" />
         <item itemvalue="JUnit.RemoveNthNodeFromEndOfListTest.cunningCase" />
         <item itemvalue="JUnit.RemoveNthNodeFromEndOfListTest.removeNthFromEnd" />
-        <item itemvalue="JUnit.ZigzagConversionTest.convert" />
-        <item itemvalue="JUnit.ZigzagConversionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +189,8 @@
       <workItem from="1675238156975" duration="4989000" />
       <workItem from="1675323818473" duration="4150000" />
       <workItem from="1675411586417" duration="7915000" />
-      <workItem from="1675702452525" duration="7578000" />
+      <workItem from="1675702452525" duration="9826000" />
+      <workItem from="1675777809291" duration="2786000" />
     </task>
     <task id="LOCAL-00001" summary="done PivotIndex">
       <created>1670165556874</created>
@@ -242,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675418624630</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="done RemoveNthNodeFromEndOfList">
+      <created>1675742170031</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675742170031</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +281,8 @@
     <MESSAGE value="done WhereWillTheBallFall" />
     <MESSAGE value="done LongestCommonPrefix" />
     <MESSAGE value="done MultiplyStrings" />
-    <option name="LAST_COMMIT_MESSAGE" value="done MultiplyStrings" />
+    <MESSAGE value="done RemoveNthNodeFromEndOfList" />
+    <option name="LAST_COMMIT_MESSAGE" value="done RemoveNthNodeFromEndOfList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -285,18 +299,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/leetcode75/lvl2/RemoveNthNodeFromEndOfListTest.java</url>
-          <line>24</line>
+          <line>22</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode75/lvl2/RemoveNthNodeFromEndOfList.java</url>
-          <line>16</line>
+          <line>27</line>
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/leetcode75/lvl2/RemoveNthNodeFromEndOfListTest.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
