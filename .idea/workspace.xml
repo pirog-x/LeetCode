@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done LongestCommonPrefix">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/MultiplyStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/MultiplyStringsTest.java" afterDir="false" />
+    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done MultiplyStrings">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/RemoveNthNodeFromEndOfList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/ZigzagConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/RemoveNthNodeFromEndOfListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/medium/ZigzagConversionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,11 +63,12 @@
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="leetcode75.lvl2" />
+      <recent name="medium" />
       <recent name="leetcode75.lvl1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MultiplyStringsTest.multiply">
-    <configuration name="LongestCommonPrefixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RemoveNthNodeFromEndOfListTest">
+    <configuration name="RemoveNthNodeFromEndOfListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -74,13 +77,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="leetcode75.lvl2" />
-      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.LongestCommonPrefixTest" />
+      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.RemoveNthNodeFromEndOfListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonPrefixTest.longestCommonPrefix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RemoveNthNodeFromEndOfListTest.cunningCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -89,14 +92,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="leetcode75.lvl2" />
-      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.LongestCommonPrefixTest" />
-      <option name="METHOD_NAME" value="longestCommonPrefix" />
+      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.RemoveNthNodeFromEndOfListTest" />
+      <option name="METHOD_NAME" value="cunningCase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplyStringsTest.multiply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RemoveNthNodeFromEndOfListTest.removeNthFromEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -105,39 +108,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="leetcode75.lvl2" />
-      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.MultiplyStringsTest" />
-      <option name="METHOD_NAME" value="multiply" />
+      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.RemoveNthNodeFromEndOfListTest" />
+      <option name="METHOD_NAME" value="removeNthFromEnd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhereWillTheBallFallTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ZigzagConversionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode75.lvl2.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode75.lvl2" />
-      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.WhereWillTheBallFallTest" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.ZigzagConversionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhereWillTheBallFallTest.findBall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ZigzagConversionTest.convert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode75.lvl2.*" />
+          <option name="PATTERN" value="medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode75.lvl2" />
-      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.WhereWillTheBallFallTest" />
-      <option name="METHOD_NAME" value="findBall" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.ZigzagConversionTest" />
+      <option name="METHOD_NAME" value="convert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MultiplyStringsTest.multiply" />
-        <item itemvalue="JUnit.LongestCommonPrefixTest" />
-        <item itemvalue="JUnit.LongestCommonPrefixTest.longestCommonPrefix" />
-        <item itemvalue="JUnit.WhereWillTheBallFallTest" />
-        <item itemvalue="JUnit.WhereWillTheBallFallTest.findBall" />
+        <item itemvalue="JUnit.RemoveNthNodeFromEndOfListTest" />
+        <item itemvalue="JUnit.RemoveNthNodeFromEndOfListTest.cunningCase" />
+        <item itemvalue="JUnit.RemoveNthNodeFromEndOfListTest.removeNthFromEnd" />
+        <item itemvalue="JUnit.ZigzagConversionTest.convert" />
+        <item itemvalue="JUnit.ZigzagConversionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +183,8 @@
       <workItem from="1675153670530" duration="143000" />
       <workItem from="1675238156975" duration="4989000" />
       <workItem from="1675323818473" duration="4150000" />
-      <workItem from="1675411586417" duration="6877000" />
+      <workItem from="1675411586417" duration="7915000" />
+      <workItem from="1675702452525" duration="7578000" />
     </task>
     <task id="LOCAL-00001" summary="done PivotIndex">
       <created>1670165556874</created>
@@ -231,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675328300914</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="done MultiplyStrings">
+      <created>1675418624629</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675418624630</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +267,8 @@
     <MESSAGE value="done SpiralMatrix" />
     <MESSAGE value="done WhereWillTheBallFall" />
     <MESSAGE value="done LongestCommonPrefix" />
-    <option name="LAST_COMMIT_MESSAGE" value="done LongestCommonPrefix" />
+    <MESSAGE value="done MultiplyStrings" />
+    <option name="LAST_COMMIT_MESSAGE" value="done MultiplyStrings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -267,11 +279,31 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetcode75/lvl2/MultiplyStrings.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/medium/ZigzagConversion.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/leetcode75/lvl2/RemoveNthNodeFromEndOfListTest.java</url>
           <line>24</line>
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode75/lvl2/RemoveNthNodeFromEndOfList.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/leetcode75/lvl2/RemoveNthNodeFromEndOfListTest.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="leetcode75.lvl2.ListNode" memberName="val" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
