@@ -1,4 +1,4 @@
-package leetcode75.lvl2;
+package medium;
 
 import java.util.AbstractMap;
 import java.util.Map;
