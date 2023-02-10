@@ -2,6 +2,9 @@ package leetcode75.lvl2;
 
 // https://leetcode.com/problems/odd-even-linked-list/?envType=study-plan&id=level-2
 
+// time: O(n)
+// memory: O(1)
+
 public class OddEvenLinkedList {
     public ListNode oddEvenList(ListNode head) {
         if (head == null || head.next == null) return head;
