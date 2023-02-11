@@ -4,13 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done refactore OddEvenLinkedList">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/SortList.java" afterDir="false" />
+    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done done SortList">
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/TreeNode.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/medium/ZigzagConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/SortListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top_interview_questions/easy/ValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/medium/BinaryTreeLevelOrderTraversalTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/medium/ZigzagConversionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/OddEvenLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/OddEvenLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrayProblems/FindFirstAndLastPositionOfElementInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array_problems/FindFirstAndLastPositionOfElementInSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrayProblems/JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array_problems/JumpGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrayProblems/LargestDivisibleSubset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array_problems/LargestDivisibleSubset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrayProblems/RemoveDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array_problems/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/SortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/SortList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/arrayProblems/FindFirstAndLastPositionOfElementInSortedArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/array_problems/FindFirstAndLastPositionOfElementInSortedArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/arrayProblems/JumpGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/array_problems/JumpGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/arrayProblems/LargestDivisibleSubsetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/array_problems/LargestDivisibleSubsetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/arrayProblems/RemoveDuplicatesFromSortedArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/array_problems/RemoveDuplicatesFromSortedArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,28 +48,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "extract.method.default.visibility": "private",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -68,13 +79,13 @@
       <recent name="leetcode75.lvl2" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="leetcode75.lvl2" />
       <recent name="medium" />
+      <recent name="leetcode75.lvl2" />
       <recent name="leetcode75.lvl1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SortListTest">
-    <configuration name="FruitIntoBasketsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BinaryTreeLevelOrderTraversalTest.levelOrder">
+    <configuration name="BinaryTreeLevelOrderTraversalTest.levelOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -82,9 +93,10 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode75.lvl2" />
-      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.FruitIntoBasketsTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="medium" />
+      <option name="MAIN_CLASS_NAME" value="medium.BinaryTreeLevelOrderTraversalTest" />
+      <option name="METHOD_NAME" value="levelOrder" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinaryTreeLevelOrderTraversalTest.levelOrder" />
         <item itemvalue="JUnit.SortListTest" />
         <item itemvalue="JUnit.OddEvenLinkedListTest" />
         <item itemvalue="JUnit.OddEvenLinkedListTest.oddEvenList" />
         <item itemvalue="JUnit.FruitIntoBasketsTest.totalFruit" />
-        <item itemvalue="JUnit.FruitIntoBasketsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +208,9 @@
       <workItem from="1675860490217" duration="4238000" />
       <workItem from="1675930210748" duration="2731000" />
       <workItem from="1675933003699" duration="32000" />
-      <workItem from="1676021535625" duration="6648000" />
+      <workItem from="1676021535625" duration="7854000" />
+      <workItem from="1676030767425" duration="168000" />
+      <workItem from="1676110091796" duration="4310000" />
     </task>
     <task id="LOCAL-00001" summary="done PivotIndex">
       <created>1670165556874</created>
@@ -289,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675932918900</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="done done SortList">
+      <created>1676028973564</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676028973564</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +341,8 @@
     <MESSAGE value="done FruitIntoBaskets" />
     <MESSAGE value="done refactore FruitIntoBaskets" />
     <MESSAGE value="done refactore OddEvenLinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="done refactore OddEvenLinkedList" />
+    <MESSAGE value="done done SortList" />
+    <option name="LAST_COMMIT_MESSAGE" value="done done SortList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,4 +1,4 @@
-package arrayProblems;
+package array_problems;
 
 public class JumpGame {
     public boolean canJump(int[] nums) {

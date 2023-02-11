@@ -1,4 +1,4 @@
-package arrayProblems;
+package array_problems;
 
 import org.junit.jupiter.api.Test;
 
