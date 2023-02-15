@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="add AssertJ&#10;&#10;done BinaryTreeLevelOrderTraversal">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/LongestPalindromeByConcatenatingTwoLetterWords.java" afterDir="false" />
+    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done LongestPalindromeByConcatenatingTwoLetterWords&#10;&#10;in fat case:&#10;time: O(n)&#10;space: O(n)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/TaskScheduler.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/medium/ZigzagConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/LongestPalindromeByConcatenatingTwoLetterWordsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/TaskSchedulerTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/medium/ZigzagConversionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/ValidParenthesesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/LongestPalindromeByConcatenatingTwoLetterWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/LongestPalindromeByConcatenatingTwoLetterWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top_interview_questions/easy/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top_interview_questions/easy/ValidParentheses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,28 +39,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "extract.method.default.visibility": "private",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -67,12 +70,13 @@
       <recent name="leetcode75.lvl2" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="medium" />
+      <recent name="top_interview_questions.easy" />
       <recent name="leetcode75.lvl2" />
+      <recent name="medium" />
       <recent name="leetcode75.lvl1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LongestPalindromeByConcatenatingTwoLetterWordsTest.longestPalindrome">
+  <component name="RunManager" selected="JUnit.ValidParenthesesTest.isValid">
     <configuration name="BinaryTreeLevelOrderTraversalTest.levelOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -120,22 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddEvenLinkedListTest.oddEvenList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode75.lvl2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode75.lvl2" />
-      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.OddEvenLinkedListTest" />
-      <option name="METHOD_NAME" value="oddEvenList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SortListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -151,13 +139,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidParenthesesTest.isValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top_interview_questions.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top_interview_questions.easy" />
+      <option name="MAIN_CLASS_NAME" value="top_interview_questions.easy.ValidParenthesesTest" />
+      <option name="METHOD_NAME" value="isValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ValidParenthesesTest.isValid" />
         <item itemvalue="JUnit.LongestPalindromeByConcatenatingTwoLetterWordsTest.longestPalindrome" />
         <item itemvalue="JUnit.BinaryTreeLevelOrderTraversalTest.levelOrder" />
         <item itemvalue="JUnit.SortListTest" />
         <item itemvalue="JUnit.OddEvenLinkedListTest" />
-        <item itemvalue="JUnit.OddEvenLinkedListTest.oddEvenList" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +204,10 @@
       <workItem from="1676030767425" duration="168000" />
       <workItem from="1676110091796" duration="4505000" />
       <workItem from="1676277520254" duration="314000" />
-      <workItem from="1676278255000" duration="4414000" />
+      <workItem from="1676278255000" duration="5225000" />
+      <workItem from="1676359313314" duration="5793000" />
+      <workItem from="1676475155765" duration="305000" />
+      <workItem from="1676479406585" duration="3335000" />
     </task>
     <task id="LOCAL-00001" summary="done PivotIndex">
       <created>1670165556874</created>
@@ -307,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676114461468</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="done LongestPalindromeByConcatenatingTwoLetterWords&#10;&#10;in fat case:&#10;time: O(n)&#10;space: O(n)">
+      <created>1676282742257</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1676282742257</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +355,8 @@
     <MESSAGE value="done done SortList" />
     <MESSAGE value="done BinaryTreeLevelOrderTraversal" />
     <MESSAGE value="add AssertJ&#10;&#10;done BinaryTreeLevelOrderTraversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="add AssertJ&#10;&#10;done BinaryTreeLevelOrderTraversal" />
+    <MESSAGE value="done LongestPalindromeByConcatenatingTwoLetterWords&#10;&#10;in fat case:&#10;time: O(n)&#10;space: O(n)" />
+    <option name="LAST_COMMIT_MESSAGE" value="done LongestPalindromeByConcatenatingTwoLetterWords&#10;&#10;in fat case:&#10;time: O(n)&#10;space: O(n)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -378,8 +393,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode75/lvl2/LongestPalindromeByConcatenatingTwoLetterWords.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="20" />
+          <line>51</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/top_interview_questions/easy/ValidParenthesesTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

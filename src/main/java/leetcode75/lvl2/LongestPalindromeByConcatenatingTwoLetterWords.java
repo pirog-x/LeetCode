@@ -45,7 +45,6 @@ public class LongestPalindromeByConcatenatingTwoLetterWords {
                     cache.put(tmp.toString(), 0);
                     cache.put(pair.getKey(), 0);
                 }
-
             }
         }
 
