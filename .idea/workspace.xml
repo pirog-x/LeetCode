@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done LongestPalindromeByConcatenatingTwoLetterWords&#10;&#10;in fat case:&#10;time: O(n)&#10;space: O(n)">
+    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done ValidParentheses">
       <change afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/TaskScheduler.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/medium/ZigzagConversion.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/TaskSchedulerTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/medium/ZigzagConversionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/ValidParenthesesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/LongestPalindromeByConcatenatingTwoLetterWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/LongestPalindromeByConcatenatingTwoLetterWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/top_interview_questions/easy/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top_interview_questions/easy/ValidParentheses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +74,7 @@
       <recent name="leetcode75.lvl1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ValidParenthesesTest.isValid">
+  <component name="RunManager" selected="JUnit.TaskSchedulerTest">
     <configuration name="BinaryTreeLevelOrderTraversalTest.levelOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -109,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddEvenLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskSchedulerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -118,13 +116,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="leetcode75.lvl2" />
-      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.OddEvenLinkedListTest" />
+      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.TaskSchedulerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskSchedulerTest.leastInterval" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -133,8 +131,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="leetcode75.lvl2" />
-      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.SortListTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.TaskSchedulerTest" />
+      <option name="METHOD_NAME" value="leastInterval" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TaskSchedulerTest" />
+        <item itemvalue="JUnit.TaskSchedulerTest.leastInterval" />
         <item itemvalue="JUnit.ValidParenthesesTest.isValid" />
         <item itemvalue="JUnit.LongestPalindromeByConcatenatingTwoLetterWordsTest.longestPalindrome" />
         <item itemvalue="JUnit.BinaryTreeLevelOrderTraversalTest.levelOrder" />
-        <item itemvalue="JUnit.SortListTest" />
-        <item itemvalue="JUnit.OddEvenLinkedListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +206,10 @@
       <workItem from="1676278255000" duration="5225000" />
       <workItem from="1676359313314" duration="5793000" />
       <workItem from="1676475155765" duration="305000" />
-      <workItem from="1676479406585" duration="3335000" />
+      <workItem from="1676479406585" duration="3697000" />
+      <workItem from="1676483147999" duration="248000" />
+      <workItem from="1676483403765" duration="2000" />
+      <workItem from="1676530578730" duration="1727000" />
     </task>
     <task id="LOCAL-00001" summary="done PivotIndex">
       <created>1670165556874</created>
@@ -321,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676282742257</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="done ValidParentheses">
+      <created>1676482861234</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1676482861234</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +365,8 @@
     <MESSAGE value="done BinaryTreeLevelOrderTraversal" />
     <MESSAGE value="add AssertJ&#10;&#10;done BinaryTreeLevelOrderTraversal" />
     <MESSAGE value="done LongestPalindromeByConcatenatingTwoLetterWords&#10;&#10;in fat case:&#10;time: O(n)&#10;space: O(n)" />
-    <option name="LAST_COMMIT_MESSAGE" value="done LongestPalindromeByConcatenatingTwoLetterWords&#10;&#10;in fat case:&#10;time: O(n)&#10;space: O(n)" />
+    <MESSAGE value="done ValidParentheses" />
+    <option name="LAST_COMMIT_MESSAGE" value="done ValidParentheses" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -400,6 +410,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/top_interview_questions/easy/ValidParenthesesTest.java</url>
           <line>16</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/leetcode75/lvl2/TaskSchedulerTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
