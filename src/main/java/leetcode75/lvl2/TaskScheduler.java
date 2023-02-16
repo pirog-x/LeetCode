@@ -2,7 +2,7 @@ package leetcode75.lvl2;
 
 // https://leetcode.com/problems/task-scheduler/?envType=study-plan&id=level-2
 // time: O(n * log(n))
-// space: O(n)
+// space: O(1)
 
 import java.util.*;
 
