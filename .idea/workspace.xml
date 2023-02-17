@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done TaskScheduler">
+    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done PlusOne">
       <change afterPath="$PROJECT_DIR$/src/main/java/medium/ZigzagConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top_interview_questions/easy/PlusOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top_interview_questions/easy/SqrtX.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/medium/ZigzagConversionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/PlusOneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/SqrtXTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/TaskScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/TaskScheduler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/top_interview_questions/easy/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top_interview_questions/easy/ValidParentheses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,23 +74,7 @@
       <recent name="leetcode75.lvl1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PlusOneTest.plusOne">
-    <configuration name="LongestPalindromeByConcatenatingTwoLetterWordsTest.longestPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode75.lvl2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode75.lvl2" />
-      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.LongestPalindromeByConcatenatingTwoLetterWordsTest" />
-      <option name="METHOD_NAME" value="longestPalindrome" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ValidParenthesesTest.isValid">
     <configuration name="PlusOneTest.plusOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -103,6 +86,22 @@
       <option name="PACKAGE_NAME" value="top_interview_questions.easy" />
       <option name="MAIN_CLASS_NAME" value="top_interview_questions.easy.PlusOneTest" />
       <option name="METHOD_NAME" value="plusOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SqrtXTest.mySqrt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top_interview_questions.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top_interview_questions.easy" />
+      <option name="MAIN_CLASS_NAME" value="top_interview_questions.easy.SqrtXTest" />
+      <option name="METHOD_NAME" value="mySqrt" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ValidParenthesesTest.isValid" />
+        <item itemvalue="JUnit.SqrtXTest.mySqrt" />
         <item itemvalue="JUnit.PlusOneTest.plusOne" />
         <item itemvalue="JUnit.TaskSchedulerTest" />
         <item itemvalue="JUnit.TaskSchedulerTest.leastInterval" />
-        <item itemvalue="JUnit.ValidParenthesesTest.isValid" />
-        <item itemvalue="JUnit.LongestPalindromeByConcatenatingTwoLetterWordsTest.longestPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +209,8 @@
       <workItem from="1676479406585" duration="3697000" />
       <workItem from="1676483147999" duration="248000" />
       <workItem from="1676483403765" duration="2000" />
-      <workItem from="1676530578730" duration="10860000" />
+      <workItem from="1676530578730" duration="11201000" />
+      <workItem from="1676632015617" duration="4445000" />
     </task>
     <task id="LOCAL-00001" summary="done PivotIndex">
       <created>1670165556874</created>
@@ -338,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676532378130</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="done PlusOne">
+      <created>1676541816234</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1676541816235</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,7 +382,8 @@
     <MESSAGE value="done LongestPalindromeByConcatenatingTwoLetterWords&#10;&#10;in fat case:&#10;time: O(n)&#10;space: O(n)" />
     <MESSAGE value="done ValidParentheses" />
     <MESSAGE value="done TaskScheduler" />
-    <option name="LAST_COMMIT_MESSAGE" value="done TaskScheduler" />
+    <MESSAGE value="done PlusOne" />
+    <option name="LAST_COMMIT_MESSAGE" value="done PlusOne" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -427,8 +435,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/top_interview_questions/easy/PlusOne.java</url>
-          <line>13</line>
+          <line>11</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/top_interview_questions/easy/SqrtX.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
