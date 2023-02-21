@@ -4,12 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done WordSearch">
+    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done MergeSortedArray">
       <change afterPath="$PROJECT_DIR$/src/main/java/medium/ZigzagConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top_interview_questions/easy/MergeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top_interview_questions/easy/BinaryTreeInorderTraversal.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/medium/ZigzagConversionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/MergeSortedArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/BinaryTreeInorderTraversalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structure/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/OddEvenLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/OddEvenLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/PalindromeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/PalindromeLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/RemoveNthNodeFromEndOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/RemoveNthNodeFromEndOfList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/SortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/SortList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/medium/BinaryTreeLevelOrderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/medium/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/medium/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/structure/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/OddEvenLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/OddEvenLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/PalindromeLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/PalindromeLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/RemoveNthNodeFromEndOfListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/RemoveNthNodeFromEndOfListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/SortListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/SortListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,28 +47,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "extract.method.default.visibility": "private",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -67,25 +78,56 @@
       <recent name="leetcode75.lvl2" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="top_interview_questions.medium" />
       <recent name="top_interview_questions.easy" />
+      <recent name="top_interview_questions.medium" />
       <recent name="leetcode75.lvl2" />
       <recent name="medium" />
       <recent name="leetcode75.lvl1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MergeSortedArrayTest.merge">
-    <configuration name="ClimbingStairsTest.climbStairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BinaryTreeInorderTraversalTest">
+    <configuration name="BinaryTreeInorderTraversalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top_interview_questions.easy.*" />
+          <option name="PATTERN" value="structure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="top_interview_questions.easy" />
-      <option name="MAIN_CLASS_NAME" value="top_interview_questions.easy.ClimbingStairsTest" />
-      <option name="METHOD_NAME" value="climbStairs" />
+      <option name="MAIN_CLASS_NAME" value="top_interview_questions.easy.BinaryTreeInorderTraversalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTreeInorderTraversalTest.inorderTraversalCaseThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top_interview_questions.easy" />
+      <option name="MAIN_CLASS_NAME" value="top_interview_questions.easy.BinaryTreeInorderTraversalTest" />
+      <option name="METHOD_NAME" value="inorderTraversalCaseThree" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryTreeInorderTraversalTest.inorderTraversalCaseTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top_interview_questions.easy" />
+      <option name="MAIN_CLASS_NAME" value="top_interview_questions.easy.BinaryTreeInorderTraversalTest" />
+      <option name="METHOD_NAME" value="inorderTraversalCaseTwo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,7 +137,7 @@
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top_interview_questions.easy.*" />
+          <option name="PATTERN" value="structure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,7 +152,7 @@
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top_interview_questions.easy.*" />
+          <option name="PATTERN" value="structure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,44 +164,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top_interview_questions.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="top_interview_questions.medium" />
-      <option name="MAIN_CLASS_NAME" value="top_interview_questions.medium.WordSearchTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordSearchTest.notExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top_interview_questions.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="top_interview_questions.medium" />
-      <option name="MAIN_CLASS_NAME" value="top_interview_questions.medium.WordSearchTest" />
-      <option name="METHOD_NAME" value="notExist" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinaryTreeInorderTraversalTest" />
+        <item itemvalue="JUnit.BinaryTreeInorderTraversalTest.inorderTraversalCaseThree" />
+        <item itemvalue="JUnit.BinaryTreeInorderTraversalTest.inorderTraversalCaseTwo" />
         <item itemvalue="JUnit.MergeSortedArrayTest.merge" />
         <item itemvalue="JUnit.MergeSortedArrayTest" />
-        <item itemvalue="JUnit.WordSearchTest" />
-        <item itemvalue="JUnit.WordSearchTest.notExist" />
-        <item itemvalue="JUnit.ClimbingStairsTest.climbStairs" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +224,9 @@
       <workItem from="1676718875344" duration="5158000" />
       <workItem from="1676793522326" duration="4820000" />
       <workItem from="1676800607548" duration="2099000" />
-      <workItem from="1676892488293" duration="4154000" />
+      <workItem from="1676892488293" duration="4732000" />
+      <workItem from="1676991556309" duration="5671000" />
+      <workItem from="1676998002469" duration="608000" />
     </task>
     <task id="LOCAL-00001" summary="done PivotIndex">
       <created>1670165556874</created>
@@ -369,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676801622558</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="done MergeSortedArray">
+      <created>1676896811099</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1676896811099</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,7 +430,8 @@
     <MESSAGE value="done SqrtX" />
     <MESSAGE value="done ClimbingStairs&#10;&#10;Memorization&#10;and&#10;Bottom-up" />
     <MESSAGE value="done WordSearch" />
-    <option name="LAST_COMMIT_MESSAGE" value="done WordSearch" />
+    <MESSAGE value="done MergeSortedArray" />
+    <option name="LAST_COMMIT_MESSAGE" value="done MergeSortedArray" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -427,22 +448,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/leetcode75/lvl2/RemoveNthNodeFromEndOfListTest.java</url>
-          <line>22</line>
+          <line>23</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leetcode75/lvl2/RemoveNthNodeFromEndOfList.java</url>
-          <line>27</line>
+          <line>29</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/leetcode75/lvl2/OddEvenLinkedListTest.java</url>
-          <line>33</line>
+          <line>34</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/leetcode75/lvl2/SortListTest.java</url>
-          <line>18</line>
+          <line>19</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -467,13 +488,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/top_interview_questions/easy/MergeSortedArrayTest.java</url>
-          <line>30</line>
+          <line>29</line>
           <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/top_interview_questions/easy/MergeSortedArray.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

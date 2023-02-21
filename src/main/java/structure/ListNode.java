@@ -1,6 +1,6 @@
-package leetcode75.lvl2;
+package structure;
 
-class ListNode {
+public class ListNode {
     public int val;
     public ListNode next;
 

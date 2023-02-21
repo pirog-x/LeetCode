@@ -1,11 +1,13 @@
 package leetcode75.lvl2;
 
+import structure.ListNode;
+
+// https://leetcode.com/problems/palindrome-linked-list/
+// speed: O(n)
+// memory: O(1)
+
 public class PalindromeLinkedList {
     public boolean isPalindrome(ListNode head) {
-
-        // speed: O(n)
-        // memory: O(1)
-
         ListNode slow = head, fast = head;
 
         while (fast != null && fast.next != null) {

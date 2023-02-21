@@ -2,6 +2,7 @@ package medium;
 
 import java.util.ArrayList;
 import java.util.List;
+import structure.TreeNode;
 
 // https://leetcode.com/problems/binary-tree-level-order-traversal/description/
 // time O(n)

@@ -2,6 +2,8 @@ package leetcode75.lvl2;
 
 // https://leetcode.com/problems/sort-list/?envType=study-plan&id=level-3
 
+import structure.ListNode;
+
 public class SortList {
 
     public ListNode sortList(ListNode head) {

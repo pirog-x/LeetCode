@@ -1,6 +1,7 @@
 package leetcode75.lvl2;
 
 import org.junit.jupiter.api.Test;
+import structure.ListNode;
 
 import static org.junit.jupiter.api.Assertions.*;
 

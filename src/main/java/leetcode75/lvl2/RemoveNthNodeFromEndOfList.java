@@ -2,6 +2,8 @@ package leetcode75.lvl2;
 
 // https://leetcode.com/problems/remove-nth-node-from-end-of-list/?envType=study-plan&id=level-2
 
+import structure.ListNode;
+
 public class RemoveNthNodeFromEndOfList {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         if (head.next == null) return null;

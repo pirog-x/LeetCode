@@ -5,6 +5,8 @@ package leetcode75.lvl2;
 // time: O(n)
 // memory: O(1)
 
+import structure.ListNode;
+
 public class OddEvenLinkedList {
     public ListNode oddEvenList(ListNode head) {
         if (head == null || head.next == null) return head;
