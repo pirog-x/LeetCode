@@ -5,46 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="add all files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/array_problems/FindFirstAndLastPositionOfElementInSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/array_problems/JumpGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/array_problems/LargestDivisibleSubset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/array_problems/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl1/IsSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl1/IsomorphicStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl1/PivotIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl1/RunningSumOf1dArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl2/HappyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl2/LongestCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl2/LongestPalindromeByConcatenatingTwoLetterWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl2/MultiplyStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl2/OddEvenLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl2/PalindromeLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl2/RemoveNthNodeFromEndOfList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl2/SortList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl2/SpiralMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl2/TaskScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl2/WhereWillTheBallFall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/medium/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/medium/FruitIntoBaskets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/medium/ZigzagConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/structure/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/structure/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/easy/BinaryTreeInorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/easy/ClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/easy/MergeSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/easy/PlusOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/easy/SqrtX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/easy/ValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/medium/ValidateBinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/medium/WordSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/HappyNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/HappyNumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/LongestCommonPrefixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/LongestCommonPrefixTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/LongestPalindromeByConcatenatingTwoLetterWordsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/LongestPalindromeByConcatenatingTwoLetterWordsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/MultiplyStringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/MultiplyStringsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/SpiralMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/SpiralMatrixTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/TaskSchedulerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/TaskSchedulerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/WhereWillTheBallFallTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/WhereWillTheBallFallTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/task/kotlin/leetcode75/lvl1/RunningSumOf1dArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/task/kotlin/leetcode75/lvl1/RunningSumOf1dArray.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/task/kotlin/leetcode75/lvl1/RunningSumOf1dArrayTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/task/kotlin/leetcode75/lvl1/RunningSumOf1dArrayTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,22 +79,7 @@
       <recent name="leetcode75.lvl2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RunningSumOf1dArrayTest (2)">
-    <configuration name="RunningSumOf1dArrayKotlinTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode75.lvl1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode75.lvl1" />
-      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl1.RunningSumOf1dArrayKotlinTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RunningSumOf1dArrayTest.runningSumTest">
     <configuration name="RunningSumOf1dArrayKotlinTest.runningSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -178,6 +126,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RunningSumOf1dArrayTest.runningSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task.kotlin.leetcode75.lvl1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task.kotlin.leetcode75.lvl1" />
+      <option name="MAIN_CLASS_NAME" value="task.kotlin.leetcode75.lvl1.RunningSumOf1dArrayTest" />
+      <option name="METHOD_NAME" value="runningSumTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TaskSchedulerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -195,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunningSumOf1dArrayTest.runningSumTest" />
         <item itemvalue="JUnit.RunningSumOf1dArrayTest (2)" />
         <item itemvalue="JUnit.TaskSchedulerTest" />
         <item itemvalue="JUnit.RunningSumOf1dArrayTest (1)" />
         <item itemvalue="JUnit.RunningSumOf1dArrayKotlinTest.runningSumTest" />
-        <item itemvalue="JUnit.RunningSumOf1dArrayKotlinTest" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +220,7 @@
       <workItem from="1676892488293" duration="4732000" />
       <workItem from="1676991556309" duration="5671000" />
       <workItem from="1676998002469" duration="5086000" />
-      <workItem from="1677482138844" duration="5822000" />
+      <workItem from="1677482138844" duration="6730000" />
     </task>
     <task id="LOCAL-00001" summary="done PivotIndex">
       <created>1670165556874</created>
@@ -440,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677487765983</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add all files">
+      <created>1677488027884</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1677488027884</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
