@@ -1,6 +1,7 @@
 package leetcode75.lvl1;
 
 import org.junit.jupiter.api.Test;
+import task.java.leetcode75.lvl1.IsomorphicStrings;
 
 import static org.junit.jupiter.api.Assertions.*;
 

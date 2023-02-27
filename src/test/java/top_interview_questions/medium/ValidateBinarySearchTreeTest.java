@@ -1,7 +1,8 @@
 package top_interview_questions.medium;
 
 import org.junit.jupiter.api.Test;
-import structure.TreeNode;
+import task.java.structure.TreeNode;
+import task.java.top_interview_questions.medium.ValidateBinarySearchTree;
 
 import static org.junit.jupiter.api.Assertions.*;
 

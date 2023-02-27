@@ -2,6 +2,7 @@ package top_interview_questions.easy;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
+import task.java.top_interview_questions.easy.MergeSortedArray;
 
 
 class MergeSortedArrayTest {

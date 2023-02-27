@@ -1,9 +1,8 @@
 package leetcode75.lvl1;
 
+import task.kotlin.leetcode75.lvl1.RunningSumOf1dArray;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class RunningSumOf1dArrayTest {
 

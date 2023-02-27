@@ -1,7 +1,8 @@
 package leetcode75.lvl2;
 
 import org.junit.jupiter.api.Test;
-import structure.ListNode;
+import task.java.leetcode75.lvl2.OddEvenLinkedList;
+import task.java.structure.ListNode;
 
 import static org.junit.jupiter.api.Assertions.*;
 

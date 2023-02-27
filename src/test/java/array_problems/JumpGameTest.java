@@ -1,6 +1,7 @@
 package array_problems;
 
 import org.junit.jupiter.api.Test;
+import task.java.array_problems.JumpGame;
 
 import static org.junit.jupiter.api.Assertions.*;
 

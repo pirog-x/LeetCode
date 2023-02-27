@@ -1,6 +1,8 @@
 package leetcode75.lvl1;
 
 import org.junit.jupiter.api.Test;
+import task.java.leetcode75.lvl1.PivotIndex;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 

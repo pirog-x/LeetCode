@@ -1,7 +1,7 @@
 package leetcode75.lvl2;
 
-import medium.FruitIntoBaskets;
 import org.junit.jupiter.api.Test;
+import task.java.medium.FruitIntoBaskets;
 
 import static org.junit.jupiter.api.Assertions.*;
 
