@@ -4,64 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done ValidateBinarySearchTree">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/task/kotlin/leetcode75/lvl1/RunningSumOf1dArray.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/medium/ZigzagConversionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/task/kotlin/leetcode75/lvl1/RunningSumOf1dArrayTest.kt" afterDir="false" />
+    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="add all files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/array_problems/FindFirstAndLastPositionOfElementInSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/array_problems/JumpGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/array_problems/LargestDivisibleSubset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/array_problems/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl1/IsSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl1/IsomorphicStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl1/PivotIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl1/RunningSumOf1dArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl2/HappyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl2/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl2/LongestPalindromeByConcatenatingTwoLetterWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl2/MultiplyStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl2/OddEvenLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl2/PalindromeLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl2/RemoveNthNodeFromEndOfList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl2/SortList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl2/SpiralMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl2/TaskScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl2/WhereWillTheBallFall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/medium/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/medium/FruitIntoBaskets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/medium/ZigzagConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/structure/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/structure/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/easy/BinaryTreeInorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/easy/ClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/easy/MergeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/easy/PlusOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/easy/SqrtX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/easy/ValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/medium/ValidateBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/medium/WordSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array_problems/FindFirstAndLastPositionOfElementInSortedArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array_problems/JumpGame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array_problems/LargestDivisibleSubset.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array_problems/RemoveDuplicatesFromSortedArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl1/IsSubsequence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl1/IsomorphicStrings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl1/PivotIndex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl1/RunningSumOf1dArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/HappyNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/LongestCommonPrefix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/LongestPalindromeByConcatenatingTwoLetterWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/MultiplyStrings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/OddEvenLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/PalindromeLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/RemoveNthNodeFromEndOfList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/SortList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/SpiralMatrix.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/TaskScheduler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode75/lvl2/WhereWillTheBallFall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/medium/BinaryTreeLevelOrderTraversal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/medium/FruitIntoBaskets.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/structure/ListNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/structure/TreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top_interview_questions/easy/BinaryTreeInorderTraversal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top_interview_questions/easy/ClimbingStairs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top_interview_questions/easy/MergeSortedArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top_interview_questions/easy/PlusOne.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top_interview_questions/easy/SqrtX.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top_interview_questions/easy/ValidParentheses.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top_interview_questions/medium/ValidateBinarySearchTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top_interview_questions/medium/WordSearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/array_problems/FindFirstAndLastPositionOfElementInSortedArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/array_problems/FindFirstAndLastPositionOfElementInSortedArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/array_problems/JumpGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/array_problems/JumpGameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/array_problems/RemoveDuplicatesFromSortedArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/array_problems/RemoveDuplicatesFromSortedArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl1/IsSubsequenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl1/IsSubsequenceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl1/IsomorphicStringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl1/IsomorphicStringsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl1/PivotIndexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl1/PivotIndexTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl1/RunningSumOf1dArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl1/RunningSumOf1dArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/FruitIntoBasketsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/FruitIntoBasketsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/OddEvenLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/OddEvenLinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/PalindromeLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/PalindromeLinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/RemoveNthNodeFromEndOfListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/RemoveNthNodeFromEndOfListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/SortListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/SortListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/medium/BinaryTreeLevelOrderTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/medium/BinaryTreeLevelOrderTraversalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/BinaryTreeInorderTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/BinaryTreeInorderTraversalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/ClimbingStairsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/ClimbingStairsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/MergeSortedArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/MergeSortedArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/PlusOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/PlusOneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/SqrtXTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/SqrtXTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/ValidParenthesesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/ValidParenthesesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/top_interview_questions/medium/ValidateBinarySearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top_interview_questions/medium/ValidateBinarySearchTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/top_interview_questions/medium/WordSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top_interview_questions/medium/WordSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/HappyNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/HappyNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/LongestCommonPrefixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/LongestCommonPrefixTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/LongestPalindromeByConcatenatingTwoLetterWordsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/LongestPalindromeByConcatenatingTwoLetterWordsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/MultiplyStringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/MultiplyStringsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/SpiralMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/SpiralMatrixTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/TaskSchedulerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/TaskSchedulerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/WhereWillTheBallFallTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode75/lvl2/WhereWillTheBallFallTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,16 +178,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunningSumOf1dArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TaskSchedulerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode75.lvl1.*" />
+          <option name="PATTERN" value="leetcode75.lvl2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode75.lvl1" />
-      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl1.RunningSumOf1dArrayTest" />
+      <option name="PACKAGE_NAME" value="leetcode75.lvl2" />
+      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl2.TaskSchedulerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -213,10 +196,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunningSumOf1dArrayTest (2)" />
+        <item itemvalue="JUnit.TaskSchedulerTest" />
         <item itemvalue="JUnit.RunningSumOf1dArrayTest (1)" />
         <item itemvalue="JUnit.RunningSumOf1dArrayKotlinTest.runningSumTest" />
         <item itemvalue="JUnit.RunningSumOf1dArrayKotlinTest" />
-        <item itemvalue="JUnit.RunningSumOf1dArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +256,7 @@
       <workItem from="1676892488293" duration="4732000" />
       <workItem from="1676991556309" duration="5671000" />
       <workItem from="1676998002469" duration="5086000" />
-      <workItem from="1677482138844" duration="5509000" />
+      <workItem from="1677482138844" duration="5822000" />
     </task>
     <task id="LOCAL-00001" summary="done PivotIndex">
       <created>1670165556874</created>
@@ -450,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677003000287</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="done refactor project&#10;add kotlin tasks&#10;add kotlin test package">
+      <created>1677487765983</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1677487765983</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,8 +458,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="done is subsequence" />
-    <MESSAGE value="done" />
     <MESSAGE value="done HappyNumber" />
     <MESSAGE value="done SpiralMatrix" />
     <MESSAGE value="done WhereWillTheBallFall" />
@@ -493,7 +481,9 @@
     <MESSAGE value="done MergeSortedArray" />
     <MESSAGE value="done BinaryTreeInorderTraversal&#10;&#10;create structure package" />
     <MESSAGE value="done ValidateBinarySearchTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="done ValidateBinarySearchTree" />
+    <MESSAGE value="done refactor project&#10;add kotlin tasks&#10;add kotlin test package" />
+    <MESSAGE value="add all files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add all files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -535,7 +525,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/leetcode75/lvl2/TaskSchedulerTest.java</url>
-          <line>12</line>
+          <line>13</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
