@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="add all files">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/task/kotlin/leetcode75/lvl1/FindPivotIndex.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/task/kotlin/leetcode75/lvl1/FindPivotIndexTest.kt" afterDir="false" />
+    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="add time complexity">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/task/kotlin/leetcode75/lvl1/IsomorphicStrings.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/task/kotlin/leetcode75/lvl1/IsomorphicStringsTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Script" />
-        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -80,7 +80,7 @@
       <recent name="top_interview_questions.easy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FindPivotIndexTest.pivotIndex">
+  <component name="RunManager" selected="JUnit.IsomorphicStringsTest.isIsomorphic">
     <configuration name="FindPivotIndexTest.pivotIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -97,17 +97,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunningSumOf1dArrayTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IsomorphicStringsTest.isIsomorphic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kotlin.leetcode75.lvl1.*" />
+          <option name="PATTERN" value="task.kotlin.leetcode75.lvl1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="kotlin.leetcode75.lvl1" />
-      <option name="MAIN_CLASS_NAME" value="kotlin.leetcode75.lvl1.RunningSumOf1dArrayTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="task.kotlin.leetcode75.lvl1" />
+      <option name="MAIN_CLASS_NAME" value="task.kotlin.leetcode75.lvl1.IsomorphicStringsTest" />
+      <option name="METHOD_NAME" value="isIsomorphic" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IsomorphicStringsTest.isIsomorphic" />
         <item itemvalue="JUnit.FindPivotIndexTest.pivotIndex" />
         <item itemvalue="JUnit.RunningSumOf1dArrayTest.runningSumTest" />
         <item itemvalue="JUnit.RunningSumOf1dArrayTest (2)" />
         <item itemvalue="JUnit.TaskSchedulerTest" />
-        <item itemvalue="JUnit.RunningSumOf1dArrayTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +223,7 @@
       <workItem from="1676991556309" duration="5671000" />
       <workItem from="1676998002469" duration="5086000" />
       <workItem from="1677482138844" duration="6730000" />
-      <workItem from="1677563053589" duration="1032000" />
+      <workItem from="1677563053589" duration="1971000" />
     </task>
     <task id="LOCAL-00001" summary="done PivotIndex">
       <created>1670165556874</created>
@@ -413,7 +414,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677488027884</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="add FindPivotIndex.kt">
+      <created>1677564181360</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1677564181360</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add time complexity">
+      <created>1677564247800</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1677564247800</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,8 +446,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="done HappyNumber" />
-    <MESSAGE value="done SpiralMatrix" />
     <MESSAGE value="done WhereWillTheBallFall" />
     <MESSAGE value="done LongestCommonPrefix" />
     <MESSAGE value="done MultiplyStrings" />
@@ -456,7 +469,9 @@
     <MESSAGE value="done ValidateBinarySearchTree" />
     <MESSAGE value="done refactor project&#10;add kotlin tasks&#10;add kotlin test package" />
     <MESSAGE value="add all files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add all files" />
+    <MESSAGE value="add FindPivotIndex.kt" />
+    <MESSAGE value="add time complexity" />
+    <option name="LAST_COMMIT_MESSAGE" value="add time complexity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -531,8 +546,13 @@ kotlin/leetcode75/RunningSumOf1dArray.kt</url>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/task/kotlin/leetcode75/lvl1/FindPivotIndex.kt</url>
-          <line>7</line>
+          <line>11</line>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/task/kotlin/leetcode75/lvl1/IsomorphicStrings.kt</url>
+          <line>5</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
