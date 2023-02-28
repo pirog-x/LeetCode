@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="add all files">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/task/kotlin/leetcode75/lvl1/FindPivotIndex.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/task/kotlin/leetcode75/lvl1/FindPivotIndexTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/task/kotlin/leetcode75/lvl1/RunningSumOf1dArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/task/kotlin/leetcode75/lvl1/RunningSumOf1dArray.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/task/kotlin/leetcode75/lvl1/RunningSumOf1dArrayTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/task/kotlin/leetcode75/lvl1/RunningSumOf1dArrayTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Script" />
         <option value="Kotlin Class" />
+        <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -46,7 +46,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "extract.method.default.visibility": "private",
-    "last_directory_selection": "/home/pirog/IdeaProjects/java/LeetCode/src/test/kotlin/kotlin/leetcode75/lvl1",
+    "last_directory_selection": "/home/pirog/IdeaProjects/java/LeetCode/src/test/kotlin/task/kotlin/leetcode75/lvl1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,6 +64,7 @@
       <recent name="" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="task.kotlin.leetcode75.lvl1" />
       <recent name="kotlin.leetcode75.lvl1" />
       <recent name="kotlin.lvl1.leetcode75" />
     </key>
@@ -72,25 +73,25 @@
       <recent name="leetcode75.lvl2" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="task.kotlin.leetcode75.lvl1" />
       <recent name="kotlin.leetcode75.lvl1" />
       <recent name="leetcode75.lvl1" />
       <recent name="top_interview_questions.medium" />
       <recent name="top_interview_questions.easy" />
-      <recent name="leetcode75.lvl2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RunningSumOf1dArrayTest.runningSumTest">
-    <configuration name="RunningSumOf1dArrayKotlinTest.runningSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FindPivotIndexTest.pivotIndex">
+    <configuration name="FindPivotIndexTest.pivotIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode75.lvl1.*" />
+          <option name="PATTERN" value="task.kotlin.leetcode75.lvl1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode75.lvl1" />
-      <option name="MAIN_CLASS_NAME" value="leetcode75.lvl1.RunningSumOf1dArrayKotlinTest" />
-      <option name="METHOD_NAME" value="runningSumTest" />
+      <option name="PACKAGE_NAME" value="task.kotlin.leetcode75.lvl1" />
+      <option name="MAIN_CLASS_NAME" value="task.kotlin.leetcode75.lvl1.FindPivotIndexTest" />
+      <option name="METHOD_NAME" value="pivotIndex" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FindPivotIndexTest.pivotIndex" />
         <item itemvalue="JUnit.RunningSumOf1dArrayTest.runningSumTest" />
         <item itemvalue="JUnit.RunningSumOf1dArrayTest (2)" />
         <item itemvalue="JUnit.TaskSchedulerTest" />
         <item itemvalue="JUnit.RunningSumOf1dArrayTest (1)" />
-        <item itemvalue="JUnit.RunningSumOf1dArrayKotlinTest.runningSumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -221,6 +222,7 @@
       <workItem from="1676991556309" duration="5671000" />
       <workItem from="1676998002469" duration="5086000" />
       <workItem from="1677482138844" duration="6730000" />
+      <workItem from="1677563053589" duration="1032000" />
     </task>
     <task id="LOCAL-00001" summary="done PivotIndex">
       <created>1670165556874</created>
@@ -526,6 +528,11 @@ kotlin/leetcode75/RunningSumOf1dArray.kt</url>
           <url>file://$PROJECT_DIR$/src/test/kotlin/kotlin/leetcode75/lvl1/RunningSumOf1dArrayKotlinTest.kt</url>
           <line>13</line>
           <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/task/kotlin/leetcode75/lvl1/FindPivotIndex.kt</url>
+          <line>7</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
