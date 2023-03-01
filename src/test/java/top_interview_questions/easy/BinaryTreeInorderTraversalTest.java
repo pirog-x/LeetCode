@@ -3,7 +3,7 @@ package top_interview_questions.easy;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import task.java.structure.TreeNode;
-import task.java.top_interview_questions.easy.BinaryTreeInorderTraversal;
+import task.java.interview.easy.BinaryTreeInorderTraversal;
 
 import java.util.ArrayList;
 import java.util.Arrays;

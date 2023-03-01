@@ -1,4 +1,4 @@
-package task.java.top_interview_questions.easy;
+package task.java.interview.easy;
 
 // https://leetcode.com/problems/sqrtx/
 // time: O(sqrt(X))

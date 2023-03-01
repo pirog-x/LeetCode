@@ -1,7 +1,7 @@
 package top_interview_questions.medium;
 
 import org.junit.jupiter.api.Test;
-import task.java.top_interview_questions.medium.WordSearch;
+import task.java.interview.medium.WordSearch;
 
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -1,7 +1,7 @@
 package top_interview_questions.easy;
 
 import org.junit.jupiter.api.Test;
-import task.java.top_interview_questions.easy.SqrtX;
+import task.java.interview.easy.SqrtX;
 
 import static org.junit.jupiter.api.Assertions.*;
 

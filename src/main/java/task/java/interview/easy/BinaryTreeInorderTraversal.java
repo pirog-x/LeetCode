@@ -1,4 +1,4 @@
-package task.java.top_interview_questions.easy;
+package task.java.interview.easy;
 
 import task.java.structure.TreeNode;
 

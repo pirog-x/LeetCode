@@ -4,10 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done IsomorphicStrings.kt">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/task/kotlin/leetcode75/lvl1/IsSubsequence.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/task/kotlin/leetcode75/lvl1/IsSubsequenceTest.kt" afterDir="false" />
+    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done IsSubsequence.kt">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/task/kotlin/interview/easy/SymmetricTree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/task/kotlin/structure/TreeNode.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/task/kotlin/interview/easy/SymmetricTreeTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/easy/BinaryTreeInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task/java/interview/easy/BinaryTreeInorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/easy/ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task/java/interview/easy/ClimbingStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/easy/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task/java/interview/easy/MergeSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/easy/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task/java/interview/easy/PlusOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/easy/SqrtX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task/java/interview/easy/SqrtX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/easy/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task/java/interview/easy/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/medium/ValidateBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task/java/interview/medium/ValidateBinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task/java/top_interview_questions/medium/WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task/java/interview/medium/WordSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/BinaryTreeInorderTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/BinaryTreeInorderTraversalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/ClimbingStairsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/ClimbingStairsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/MergeSortedArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/MergeSortedArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/PlusOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/PlusOneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/SqrtXTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/SqrtXTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/ValidParenthesesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top_interview_questions/easy/ValidParenthesesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top_interview_questions/medium/ValidateBinarySearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top_interview_questions/medium/ValidateBinarySearchTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top_interview_questions/medium/WordSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top_interview_questions/medium/WordSearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,29 +53,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "extract.method.default.visibility": "private",
-    "last_directory_selection": "/home/pirog/IdeaProjects/java/LeetCode/src/test/kotlin/task/kotlin/leetcode75/lvl1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/pirog/IdeaProjects/java/LeetCode/src/test/kotlin/task/kotlin&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -73,11 +90,11 @@
       <recent name="leetcode75.lvl2" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="task.kotlin.interview.easy" />
       <recent name="task.kotlin.leetcode75.lvl1" />
       <recent name="kotlin.leetcode75.lvl1" />
       <recent name="leetcode75.lvl1" />
       <recent name="top_interview_questions.medium" />
-      <recent name="top_interview_questions.easy" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.IsSubsequenceTest.isSubsequence">
@@ -224,7 +241,9 @@
       <workItem from="1676991556309" duration="5671000" />
       <workItem from="1676998002469" duration="5086000" />
       <workItem from="1677482138844" duration="6730000" />
-      <workItem from="1677563053589" duration="2621000" />
+      <workItem from="1677563053589" duration="4781000" />
+      <workItem from="1677574066701" duration="39000" />
+      <workItem from="1677664608360" duration="2187000" />
     </task>
     <task id="LOCAL-00001" summary="done PivotIndex">
       <created>1670165556874</created>
@@ -436,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677565337151</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="done IsSubsequence.kt">
+      <created>1677565864160</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1677565864160</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +480,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="done LongestCommonPrefix" />
     <MESSAGE value="done MultiplyStrings" />
     <MESSAGE value="done RemoveNthNodeFromEndOfList" />
     <MESSAGE value="done PalindromeLinkedList&#10;&#10;speed: O(n)&#10;memory: O(1)" />
@@ -479,7 +504,8 @@
     <MESSAGE value="add FindPivotIndex.kt" />
     <MESSAGE value="add time complexity" />
     <MESSAGE value="done IsomorphicStrings.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="done IsomorphicStrings.kt" />
+    <MESSAGE value="done IsSubsequence.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="done IsSubsequence.kt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

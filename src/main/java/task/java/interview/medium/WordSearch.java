@@ -1,4 +1,4 @@
-package task.java.top_interview_questions.medium;
+package task.java.interview.medium;
 
 // https://leetcode.com/problems/word-search/
 
