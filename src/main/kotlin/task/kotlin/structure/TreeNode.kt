@@ -1,8 +1,15 @@
 package task.kotlin.structure
 
+
+class TreeNode(var `val`: Int = 0,
+               var left:TreeNode? = null,
+               var right: TreeNode? = null) {}
+
+
+/*
 class TreeNode {
     @JvmField
-    public var value = 0
+    public var `val` = 0
     @JvmField
     public var left: TreeNode? = null
     @JvmField
@@ -10,12 +17,13 @@ class TreeNode {
 
     constructor()
     constructor(value: Int) {
-        this.value = value
+        this.`val` = value
     }
 
     constructor(value: Int, left: TreeNode?, right: TreeNode?) {
-        this.value = value
+        this.`val` = value
         this.left = left
         this.right = right
     }
 }
+*/
