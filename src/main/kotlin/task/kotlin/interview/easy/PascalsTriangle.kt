@@ -2,8 +2,8 @@ package task.kotlin.interview.easy
 
 // https://leetcode.com/problems/pascals-triangle/
 // n = numRows
-// time: O(n * n / 2) => n^2
-// space: O(n * n / 2) => n^2
+// time: O((n * (n - 1)) / 2)  => n^2
+// space: O((n * (n - 1)) / 2) => n^2
 
 class PascalsTriangle {
     fun generate(numRows: Int): List<List<Int>> {

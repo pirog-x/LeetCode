@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done KokoEatingBananas.kt">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/task/kotlin/interview/easy/PascalsTriangle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/task/kotlin/interview/easy/PascalsTriangleTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done PascalsTriangle.kt">
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/task/kotlin/interview/easy/PascalsTriangle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/task/kotlin/interview/easy/PascalsTriangle.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +229,7 @@
       <workItem from="1678309953525" duration="15000" />
       <workItem from="1678355008617" duration="4043000" />
       <workItem from="1678434653531" duration="8290000" />
-      <workItem from="1678518097140" duration="3294000" />
+      <workItem from="1678518097140" duration="3635000" />
     </task>
     <task id="LOCAL-00001" summary="done PivotIndex">
       <created>1670165556874</created>
@@ -485,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678443287931</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="done PascalsTriangle.kt">
+      <created>1678521547826</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1678521547826</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,7 +508,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="done refactore OddEvenLinkedList" />
     <MESSAGE value="done done SortList" />
     <MESSAGE value="done BinaryTreeLevelOrderTraversal" />
     <MESSAGE value="add AssertJ&#10;&#10;done BinaryTreeLevelOrderTraversal" />
@@ -528,7 +532,8 @@
     <MESSAGE value="done FindTheIndexOfTheFirstOccurrenceInAString.kt" />
     <MESSAGE value="done ConvertSortedArrayToBinarySearchTree.kt" />
     <MESSAGE value="done KokoEatingBananas.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="done KokoEatingBananas.kt" />
+    <MESSAGE value="done PascalsTriangle.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="done PascalsTriangle.kt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
