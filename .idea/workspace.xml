@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="fixed big(O) notation">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/task/kotlin/interview/easy/ValidPalindrome.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/task/kotlin/interview/easy/ValidPalindromeTest.kt" afterDir="false" />
+    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done ValidPalindrome.kt">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/task/kotlin/interview/easy/SingleNumber.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/task/kotlin/interview/easy/SingleNumberTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +80,7 @@
       <recent name="leetcode75.lvl1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ValidPalindromeTest.isPalindrome">
+  <component name="RunManager" selected="JUnit.SingleNumberTest.singleNumber">
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task.kotlin.interview.easy.test" />
       <module name="LeetCode" />
@@ -125,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PascalsTriangleTest.generateOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SingleNumberTest.singleNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -134,8 +134,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="task.kotlin.interview.easy" />
-      <option name="MAIN_CLASS_NAME" value="task.kotlin.interview.easy.PascalsTriangleTest" />
-      <option name="METHOD_NAME" value="generateOne" />
+      <option name="MAIN_CLASS_NAME" value="task.kotlin.interview.easy.SingleNumberTest" />
+      <option name="METHOD_NAME" value="singleNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SingleNumberTest.singleNumber" />
         <item itemvalue="JUnit.ValidPalindromeTest.isPalindrome" />
         <item itemvalue="JUnit.PascalsTriangleTest" />
         <item itemvalue="JUnit.PascalsTriangleTest.generate" />
         <item itemvalue="Application.test" />
-        <item itemvalue="JUnit.PascalsTriangleTest.generateOne" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +233,8 @@
       <workItem from="1678355008617" duration="4043000" />
       <workItem from="1678434653531" duration="8290000" />
       <workItem from="1678518097140" duration="3678000" />
-      <workItem from="1678608151964" duration="1542000" />
+      <workItem from="1678608151964" duration="1564000" />
+      <workItem from="1679201686189" duration="3252000" />
     </task>
     <task id="LOCAL-00001" summary="done PivotIndex">
       <created>1670165556874</created>
@@ -501,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678521753880</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="done ValidPalindrome.kt">
+      <created>1678609706535</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1678609706535</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,7 +527,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="done BinaryTreeLevelOrderTraversal" />
     <MESSAGE value="add AssertJ&#10;&#10;done BinaryTreeLevelOrderTraversal" />
     <MESSAGE value="done LongestPalindromeByConcatenatingTwoLetterWords&#10;&#10;in fat case:&#10;time: O(n)&#10;space: O(n)" />
     <MESSAGE value="done ValidParentheses" />
@@ -544,7 +551,8 @@
     <MESSAGE value="done KokoEatingBananas.kt" />
     <MESSAGE value="done PascalsTriangle.kt" />
     <MESSAGE value="fixed big(O) notation" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed big(O) notation" />
+    <MESSAGE value="done ValidPalindrome.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="done ValidPalindrome.kt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
