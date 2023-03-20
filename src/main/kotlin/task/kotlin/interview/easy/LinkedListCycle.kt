@@ -2,6 +2,10 @@ package task.kotlin.interview.easy
 
 import task.kotlin.structure.ListNode
 
+// https://leetcode.com/problems/linked-list-cycle/
+// time: O(n)
+// space: O(1)
+
 class LinkedListCycle {
     fun hasCycle(head: ListNode?): Boolean {
         if (head == null || head.next == null) return false
