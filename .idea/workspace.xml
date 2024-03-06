@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="done fix the bug">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/array_problems/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/task/java/array_problems/TwoSumTest.java" afterDir="false" />
+    <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="Done TwoSum">
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/array_problems/GroupAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl1/GreatestCommonDivisorOfStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/task/java/array_problems/GroupAnagramsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/task/java/leetcode75/lvl1/GreatestCommonDivisorOfStringsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +34,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2IMPb7DxjJOmWEQVM6g7AGyaFYU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -44,6 +46,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.GreatestCommonDivisorOfStringsTest.executor": "Run",
+    "JUnit.GreatestCommonDivisorOfStringsTest.test1 (1).executor": "Run",
+    "JUnit.GreatestCommonDivisorOfStringsTest.test1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -51,7 +56,8 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "extract.method.default.visibility": "private",
-    "last_directory_selection": "/home/pirog/IdeaProjects/java/LeetCode/src/test/java",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "/home/pirog/IdeaProjects/java/LeetCode/src/test/java/task/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,47 +84,62 @@
       <recent name="leetcode75.lvl2" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="task.java.leetcode75.lvl1" />
       <recent name="task.java.array_problems" />
       <recent name="task.kotlin.interview.easy" />
       <recent name="task.kotlin.fun" />
       <recent name="task.kotlin.leetcode75.lvl1" />
-      <recent name="kotlin.leetcode75.lvl1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.kotlin in LeetCode">
-    <configuration name="LinkedListCycleTest.hasCycle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GreatestCommonDivisorOfStringsTest">
+    <configuration name="GreatestCommonDivisorOfStringsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task.kotlin.interview.easy.*" />
+          <option name="PATTERN" value="task.java.leetcode75.lvl1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="task.kotlin.interview.easy" />
-      <option name="MAIN_CLASS_NAME" value="task.kotlin.interview.easy.LinkedListCycleTest" />
-      <option name="METHOD_NAME" value="hasCycle" />
+      <option name="PACKAGE_NAME" value="task.java.leetcode75.lvl1" />
+      <option name="MAIN_CLASS_NAME" value="task.java.leetcode75.lvl1.GreatestCommonDivisorOfStringsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreatestCommonDivisorOfStringsTest.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task.java.leetcode75.lvl1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task.java.leetcode75.lvl1" />
+      <option name="MAIN_CLASS_NAME" value="task.java.leetcode75.lvl1.GreatestCommonDivisorOfStringsTest" />
+      <option name="METHOD_NAME" value="test1(java.lang.String,java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleNumberTest.singleNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GreatestCommonDivisorOfStringsTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="task.kotlin.interview.easy.*" />
+          <option name="PATTERN" value="task.java.leetcode75.lvl1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="task.kotlin.interview.easy" />
-      <option name="MAIN_CLASS_NAME" value="task.kotlin.interview.easy.SingleNumberTest" />
-      <option name="METHOD_NAME" value="singleNumber" />
+      <option name="PACKAGE_NAME" value="task.java.leetcode75.lvl1" />
+      <option name="MAIN_CLASS_NAME" value="task.java.leetcode75.lvl1.GreatestCommonDivisorOfStringsTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupAnagramsTest.testGroupAnagramsCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -127,16 +148,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="task.java.array_problems" />
-      <option name="MAIN_CLASS_NAME" value="task.java.array_problems.TwoSumTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="java in LeetCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/java" />
+      <option name="MAIN_CLASS_NAME" value="task.java.array_problems.GroupAnagramsTest" />
+      <option name="METHOD_NAME" value="testGroupAnagramsCase1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GreatestCommonDivisorOfStringsTest" />
+        <item itemvalue="JUnit.GreatestCommonDivisorOfStringsTest.test1 (1)" />
+        <item itemvalue="JUnit.GreatestCommonDivisorOfStringsTest.test1" />
+        <item itemvalue="JUnit.GroupAnagramsTest.testGroupAnagramsCase1" />
         <item itemvalue="JUnit.kotlin in LeetCode" />
-        <item itemvalue="JUnit.java in LeetCode" />
-        <item itemvalue="JUnit.TwoSumTest" />
-        <item itemvalue="JUnit.LinkedListCycleTest.hasCycle" />
-        <item itemvalue="JUnit.SingleNumberTest.singleNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +244,8 @@
       <workItem from="1679317839554" duration="1988000" />
       <workItem from="1685263680505" duration="13000" />
       <workItem from="1685263752363" duration="218000" />
-      <workItem from="1700313719290" duration="2617000" />
+      <workItem from="1700313719290" duration="7428000" />
+      <workItem from="1709715420650" duration="7566000" />
     </task>
     <task id="LOCAL-00001" summary="done PivotIndex">
       <created>1670165556874</created>
@@ -533,7 +548,15 @@
       <option name="project" value="LOCAL" />
       <updated>1679319641220</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Done TwoSum">
+      <option name="closed" value="true" />
+      <created>1700316361257</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1700316361257</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +574,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="done PlusOne" />
     <MESSAGE value="done SqrtX" />
     <MESSAGE value="done ClimbingStairs&#10;&#10;Memorization&#10;and&#10;Bottom-up" />
     <MESSAGE value="done WordSearch" />
@@ -576,7 +598,8 @@
     <MESSAGE value="done LinkedListCycle.kt" />
     <MESSAGE value="done update time complexity" />
     <MESSAGE value="done fix the bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="done fix the bug" />
+    <MESSAGE value="Done TwoSum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done TwoSum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -635,6 +658,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/top_interview_questions/easy/MergeSortedArrayTest.java</url>
           <line>30</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/task/java/array_problems/GroupAnagrams.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/kotlin/leetcode75/lvl1
