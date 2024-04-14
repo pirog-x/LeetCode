@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2057ff27-fb2b-45de-97d5-db8bb9275cfa" name="Changes" comment="Done TwoSum">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/array_problems/GroupAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/leetcode75/lvl1/GreatestCommonDivisorOfStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/task/java/array_problems/GroupAnagramsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/task/java/leetcode75/lvl1/GreatestCommonDivisorOfStringsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/java/interview/medium/LruCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/task/java/interview/medium/LruCacheTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +44,7 @@
     "JUnit.GreatestCommonDivisorOfStringsTest.executor": "Run",
     "JUnit.GreatestCommonDivisorOfStringsTest.test1 (1).executor": "Run",
     "JUnit.GreatestCommonDivisorOfStringsTest.test1.executor": "Run",
+    "JUnit.LruCacheTest.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -56,8 +52,9 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_directory_selection": "/home/pirog/IdeaProjects/java/LeetCode/src/test/java/task/java",
+    "last_directory_selection": "/home/pirog/IdeaProjects/LeetCode/src/test/java/task/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,14 +81,14 @@
       <recent name="leetcode75.lvl2" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="task.java.interview.medium" />
       <recent name="task.java.leetcode75.lvl1" />
       <recent name="task.java.array_problems" />
       <recent name="task.kotlin.interview.easy" />
       <recent name="task.kotlin.fun" />
-      <recent name="task.kotlin.leetcode75.lvl1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GreatestCommonDivisorOfStringsTest">
+  <component name="RunManager" selected="JUnit.LruCacheTest.test">
     <configuration name="GreatestCommonDivisorOfStringsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -155,21 +152,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="kotlin in LeetCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LruCacheTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/kotlin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task.java.interview.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="task.java.interview.medium" />
+      <option name="MAIN_CLASS_NAME" value="task.java.interview.medium.LruCacheTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LruCacheTest.test" />
         <item itemvalue="JUnit.GreatestCommonDivisorOfStringsTest" />
         <item itemvalue="JUnit.GreatestCommonDivisorOfStringsTest.test1 (1)" />
         <item itemvalue="JUnit.GreatestCommonDivisorOfStringsTest.test1" />
         <item itemvalue="JUnit.GroupAnagramsTest.testGroupAnagramsCase1" />
-        <item itemvalue="JUnit.kotlin in LeetCode" />
       </list>
     </recent_temporary>
   </component>
